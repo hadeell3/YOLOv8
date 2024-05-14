@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['depth', 'length', 'width']
+
+roboflow:
+  workspace: yy-zqzx4
+  project: yolodataset-mlih3
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yy-zqzx4/yolodataset-mlih3/dataset/3
